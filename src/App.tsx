@@ -1,13 +1,15 @@
-import './App.css'
+import Header from './containers/index.tsx/Header'
 
-import Header from "./containers/Header";
+import './App.css'
+import ListsBoard from './containers/ListsBoard'
 
 function App() {
 
   return (
-    <>
+    <div className='wrapper'>
       <Header />
-    </>
+      <ListsBoard />
+    </div>
   )
 }
 

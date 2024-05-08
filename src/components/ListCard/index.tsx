@@ -2,9 +2,10 @@ import './listcard.css'
 
 type Props = {
     title: string
+    link: string
 }
 
-const ListCard = ({ title }: Props) => {
+const ListCard = ({ title, link }: Props) => {
     return (
         <li>
             <div className="card">
@@ -12,7 +13,7 @@ const ListCard = ({ title }: Props) => {
                     <h3 className="card-title">
                         {title}
                     </h3>
-                    <a href="#" className="card-button">
+                    <a href={link} className="card-button">
                         Entrar
                     </a>
                 </div>

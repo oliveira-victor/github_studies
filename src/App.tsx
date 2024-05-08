@@ -1,7 +1,8 @@
-import Header from './containers/index.tsx/Header'
+
+import Header from './containers/Header'
+import ListsBoard from './containers/ListsBoard'
 
 import './App.css'
-import ListsBoard from './containers/ListsBoard'
 
 function App() {
 

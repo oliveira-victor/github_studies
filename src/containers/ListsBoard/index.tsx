@@ -6,7 +6,9 @@ const ListsBoard = () => {
         <main>
             <h2>Listas</h2>
             <ul className="main-list">
-                <ListCard title="Animais" link="#" />
+                <ListCard title="Animais" link="/animais" />
+                <ListCard title="Esportes" link="/esportes" />
+                <ListCard title="Comidas" link="/comidas" />
             </ul>
         </main>
     )

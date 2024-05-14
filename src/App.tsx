@@ -1,15 +1,18 @@
+import { BrowserRouter } from 'react-router-dom'
 
 import Header from './containers/Header'
-import ListsBoard from './containers/ListsBoard'
 
 import './App.css'
+import Pages from './routes'
 
 function App() {
 
   return (
     <div className='wrapper'>
       <Header />
-      <ListsBoard />
+      <BrowserRouter>
+        <Pages />
+      </BrowserRouter>
     </div>
   )
 }

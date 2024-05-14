@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './listcard.css'
 
 type Props = {
@@ -13,9 +14,9 @@ const ListCard = ({ title, link }: Props) => {
                     <h3 className="card-title">
                         {title}
                     </h3>
-                    <a href={link} className="card-button">
+                    <Link to={link} className="card-button">
                         Entrar
-                    </a>
+                    </Link>
                 </div>
             </div>
         </li>
